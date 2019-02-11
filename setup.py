@@ -103,7 +103,6 @@ if __name__ == '__main__':
         install_requires=install_requires,
         entry_points={
             'console_scripts': [
-                'bootstrap = bootstrap:bootstrap',
                 'volttron = volttron.platform.main:_main',
                 'volttron-ctl = volttron.platform.control:_main',
                 'volttron-pkg = volttron.platform.packaging:_main',
